@@ -37,8 +37,11 @@ relative | relative time, format [Duration](doc/types/times.md#Duration)
   "payment_kind": "cash",
   "tariffs": [314124124,234344544],
   "options": [],
-  route: [],
-  time_on: "2020-02-28 12:35:00+03"
+  "route": [
+    {"lat": 52.095706, "lon": 23.684427}, 
+    {"lat": 52.113256, "lon": 23.691464}
+  ],
+  "time_on": "2020-02-28 12:35:00+03"
 }
 ```
 
