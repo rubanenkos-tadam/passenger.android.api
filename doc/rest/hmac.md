@@ -20,12 +20,12 @@ Authentication | hmac {identity}:{nonce}:{digest}
 Example
 ===
 **Request data**
-* id: 1000007750818
-* key: Jwtm8U6yV9JM3T/GfyUucUD7mRlZJbmLN0FaCrV7BIE=
+* identity: 45000331513082
+* secret/key: e0wkIP7JjlgJh7+HrLrQ8Lkgpx5Cp//A0n3PAVU1JWo=
 * method: GET
-* path: /api/client/mobile/1.0/history
-* Date: Tue, 24 Jan 2017 16:24:27 +0600
-* Authentication: hmac 1000007750818:737137758:J8DWmoscR3Z4+YbHvZ0D2Up/8Weh0IjXa26QVb0ihqA=
+* path: /api/client/mobile/3.0/estimate
+* Date: Mon, 16 Mar 2020 13:55:54 +0600
+* Authentication: hmac 45000331513082:979098767:i4qNxHnmD8QzxN4azqKZ/8BLY+MJl/Dx37E2+6ubijE=
 
 ---
 
