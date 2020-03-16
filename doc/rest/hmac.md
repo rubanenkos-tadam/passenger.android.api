@@ -12,7 +12,7 @@ Authentication | hmac {identity}:{nonce}:{digest}
 * {digest} - message signature, base64encode(hmac("sha256", {secret}, "{method}{path}{date}{nonce}"))
   * {secret} – base64decode("{key}") (**key** - received by registration).
   * {method} – request method (ex. GET).
-  * {path} – request path (ex. /api/client/mobile/3.1/estimate).
+  * {path} – request path (ex. /api/client/mobile/1.0/history).
   * {date} – same as **Date** header.
   * {nonce} – see above.
   
