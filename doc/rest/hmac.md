@@ -28,8 +28,8 @@ Example
 
 ---
 
-Example, Java 1.8
-===
+### Java 1.8
+
 
 ```java
 import javax.crypto.Mac;
