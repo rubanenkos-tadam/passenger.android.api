@@ -47,45 +47,60 @@ relative | relative time, format [Duration](doc/types/times.md#Duration)
 ### Request Example
 ```json
 {
-  "paymentMethod": "cash",
+{
+  "paymentMethod": {
+    "kind": "cash"
+  },
   "tariff": 230000010102102,
-  "options": [4546476474,84943093,32323],
-"route": [{
-     "address": {
-      "name": "Республика Беларусь, обл Бресткая, г Брест, б-р Космонавтов, 60 (Школа № 3)",
-          "components": [
-            {
-              "level": 0,
-              "name": " Республика Беларусь"
-            }, {
-              "level": 1,
-              "name": "обл Бресткая"
-            }, {
-              "level": 4,
-              "name": "г Брест"
-            }, {
-              "level": 7,
-              "name": "б-р Космонавтов"
-            }, {
-              "level": 8,
-              "name": "60"
-            }, {
-              "level": 9,
-              "name": "Школа № 3"
-            }
-          ],
-          "types": {
-            "pointType": 63,
-            "aliasType": 3
+  "options": [
+    4546476474,
+    84943093,
+    32323
+  ],
+  "route": [
+    {
+      "address": {
+        "name": "Республика Беларусь, обл Бресткая, г Брест, б-р Космонавтов, 60 (Школа № 3)",
+        "components": [
+          {
+            "level": 0,
+            "name": " Республика Беларусь"
           },
-          "position": {
-            "lat": 52.096807,
-            "lon": 23.697629
+          {
+            "level": 1,
+            "name": "обл Бресткая"
+          },
+          {
+            "level": 4,
+            "name": "г Брест"
+          },
+          {
+            "level": 7,
+            "name": "б-р Космонавтов"
+          },
+          {
+            "level": 8,
+            "name": "60"
+          },
+          {
+            "level": 9,
+            "name": "Школа № 3"
           }
+        ],
+        "types": {
+          "pointType": 63,
+          "aliasType": 3
         },
-        "comment": "парковка перед школой"
-      }],
-    "time": "2019-11-14T13:00:00+03:00"
+        "position": {
+          "lat": 52.096807,
+          "lon": 23.697629
+        }
+      },
+      "comment": "парковка перед школой"
+    }
+  ],
+  "time": "2019-11-14T13:00:00+03:00"
+}
 }
 ```
 
