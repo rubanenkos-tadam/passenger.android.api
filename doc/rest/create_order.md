@@ -21,9 +21,9 @@ disableVoice | opt | boolean | Disable Voice notification
 Param | man/opt | Type | Description
 ----- | ------- | ---- | -----------
 kind | man | PaymentKind / string | Kind of payment
-id | opt | number | 
-name | opt | string | 
-enoughMoney | opt | boolean | 
+id | opt | int64 | Bank card Id or B2B Fare Id
+name | opt | string | Pan for Bank card for kind = credit_card
+enoughMoney | opt | boolean | If **True** - user can using cashless payment kind
 
 #### PaymentKind / string
 Value | Description
