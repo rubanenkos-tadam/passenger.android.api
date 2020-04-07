@@ -47,7 +47,6 @@ relative | relative time, format [Duration](doc/types/times.md#Duration)
 ### Request Example
 ```json
 {
-{
   "paymentMethod": {
     "kind": "cash"
   },
